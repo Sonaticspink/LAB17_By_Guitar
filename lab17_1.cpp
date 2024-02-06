@@ -45,7 +45,7 @@ int main() {
     delete[] A;
     delete[] B;
     for (int i = 0; i < nA; i++) delete[] C[i];
-    delete[] C;
+  
 
     return 0;
 }
